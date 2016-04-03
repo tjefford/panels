@@ -2,8 +2,6 @@
 // Version 0.1
 // Tyler Jefford (http://tylerjefford.com)
 
-
-
 class Site {
 
     /**
@@ -24,6 +22,10 @@ class Site {
      */
     public $description = 'A minimal onepage site using PHP to manage panels';
 
+    /**
+     * Google Analytics ID
+     * @var string
+     */
     public $GA ='UA-XXXXXXXX-X';
 
     /**
