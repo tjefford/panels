@@ -14,6 +14,8 @@
     <meta name="author" content="<?php echo $site->author; ?>" />
     <meta name=description content="<?php echo $site->description; ?>" />
 
+    <?php echo $site->socialMeta(); ?>
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
 
