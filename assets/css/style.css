@@ -7,6 +7,10 @@ html,body {width: 100%; font-family: 'Open Sans',sans-serif;font-weight: 300;fon
 .center {text-align: center;}
 .right {text-align: right;}
 
+em {
+    font-style: italic;
+}
+
 header { position: fixed; top: 0px; width: 100%; padding: 20px 30px; z-index: 1000; }
 header #logo {float: left;}
 header #logo a {color: #fff; text-decoration: none; font-size: 28px;}

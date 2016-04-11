@@ -12,7 +12,7 @@
 /* ============
 ** About
 ============ */
-#about h2 {
+#about h2, #settings h2, #options h2, #open h2 {
     font-weight: 700;
 }
 #about p {

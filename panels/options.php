@@ -3,7 +3,8 @@ defined( 'SitePath' ) or die( 'No Direct Access Allowed' ); ?>
 
 <div class="section " id="options">
     <div class="wrap">
-        <h1>Plugin Options</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto culpa dolore eligendi fugiat hic iste, laboriosam libero magnam nemo nesciunt praesentium provident quae quaerat, quis quo, saepe sapiente voluptatem.</p>
+        <h2 class="center">Plugin Options</h2>
+        <br />
+        <p>Out of the box, Panels has all kinds of useful tools, and if you don't see it feel free to make a pull request on our <a href="https://bitbucket.org/tjefford/panels-cms" alt="BitBucket" target="_blank">Bitbucket</a> page.</p>
     </div>
 </div>
