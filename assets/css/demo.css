@@ -1,0 +1,23 @@
+/* ============
+** Home
+============ */
+#home h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#home p {
+    font-size: 18px;
+}
+/* ============
+** About
+============ */
+#about h2 {
+    font-weight: 700;
+}
+#about p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}

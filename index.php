@@ -14,18 +14,26 @@
     <meta name="author" content="<?php echo $site->author; ?>" />
     <meta name=description content="<?php echo $site->description; ?>" />
 
-    <?php echo $site->socialMeta(); ?>
-
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
 
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
+    <!-- DEMO STYLES -->
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+
 </head>
 <body>
 <header id="header">
-    <h1 id="logo"><a href="/">LOGO</a></h1>
+    <h1 id="logo"><a href="/"><i class="brand"></i> Panels</ia></h1>
+
+    <nav>
+        <ul>
+            <li><a href="#home" alt="Home"><i class="fa fa-home"></i></a></li>
+            <li><a href="https://bitbucket.org/tjefford/panels-cms" alt="BitBucket" target="_blank"><i class="fa fa-bitbucket-square"></i></a></li>
+        </ul>
+    </nav>
 </header>
 <div id="fullpage">
 
@@ -52,12 +60,14 @@
     ga("send", "pageview");
 </script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
+        // Sets up the fullpage plugin with the names, colors and other options
+        // Documentation found here: https://github.com/alvarotrigo/fullPage.js#fullpagejs
         $('#fullpage').fullpage({
             sectionsColor: [<?php foreach($site->panels as $k=>$name){echo '"'.$name[0].'",';} ?>],
             navigation: true,
