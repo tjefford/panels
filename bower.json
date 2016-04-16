@@ -1,0 +1,17 @@
+{
+  "name": "panels",
+  "homepage": "https://bitbucket.org/tjefford/panels#readme",
+  "authors": [
+    "Tyler Jefford <tylerjefford@gmail.com"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.6.0",
+    "fullpage.js": "2.7.9",
+    "jquery-ui": "1.10.4"
+  },
+  "overrides": {
+
+  }
+}

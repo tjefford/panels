@@ -1,0 +1,76 @@
+html,body {width: 100%; font-family: 'Open Sans',sans-serif;font-weight: 300;font-size: 14px; color: #fff; -webkit-font-smoothing: antialiased; }
+
+.clear {clear: both;}
+.left {text-align: left;}
+.center {text-align: center;}
+.right {text-align: right;}
+
+em { font-style: italic; }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 30px;
+  z-index: 1000;
+
+  #logo {
+    float: left;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 28px;
+
+      i.brand {
+        background: url(../images/logo.png);
+        width: 27px;
+        height: 27px;
+        display: inline-block;
+        float: left;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  nav {
+    float: right;
+    margin-right: 50px;
+
+    ul li {
+      display: inline-block;
+      margin-right: 10px;
+
+      a {
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.section {
+  .wrap {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 46px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 767px) {
+    .section .wrap {width: 80%; padding: 0 10%;}
+}
+@media (max-width: 500px) {
+    .section .wrap {font-size: 19px; line-height: 32px; }
+}
+.section .wrap a {color: #fff;}
+.section .wrap a:hover {color: #afafaf;}
+
+@media (max-width: 500px) {
+    .section .wrap img {
+        width: 100%;
+    }
+}

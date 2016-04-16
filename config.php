@@ -1,5 +1,5 @@
 <?php
-// Version 0.5
+// Version 0.6
 // Tyler Jefford (http://tylerjefford.com)
 
 // Define your site path

@@ -15,13 +15,13 @@
     <meta name=description content="<?php echo $site->description; ?>" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+<!--    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />-->
 
-    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<!--    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />-->
+    <link rel="stylesheet" type="text/css" href="dist/styles/main.css" />
 
     <!-- DEMO STYLES -->
-    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+<!--    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />-->
 
 </head>
 <body>
@@ -60,15 +60,16 @@
     ga("send", "pageview");
 </script>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
+<script src="dist/scripts/jquery.js"></script>
+<script src="dist/scripts/jquery-ui.js"></script>
+<script src="dist/scripts/main.js"></script>
+<!--<script type="text/javascript" src="dist/scripts/jquery.fullPage.min.js"></script>-->
 
 <script type="text/javascript">
-    $(document).ready(function() {
+    jQuery(document).ready(function() {
         // Sets up the fullpage plugin with the names, colors and other options
         // Documentation found here: https://github.com/alvarotrigo/fullPage.js#fullpagejs
-        $('#fullpage').fullpage({
+        jQuery('#fullpage').fullpage({
             sectionsColor: [<?php foreach($site->panels as $k=>$name){echo '"'.$name[0].'",';} ?>],
             navigation: true,
             navigationPosition: 'right',

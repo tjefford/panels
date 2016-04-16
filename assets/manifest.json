@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "jquery-ui.js": {
+      "bower": ["jquery-ui"]
+    },
+    "main.js": {
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost/panels-cms"
+  }
+}
