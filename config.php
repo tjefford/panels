@@ -1,6 +1,6 @@
 <?php
-// Version 0.6
-// Tyler Jefford (http://tylerjefford.com)
+// Panels Version 0.6
+// Tyler Jefford <http://tylerjefford.com>
 
 // Define your site path
 define ('SitePath', 'http://localhost/panels-cms');
