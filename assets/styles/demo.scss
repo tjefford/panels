@@ -1,25 +1,65 @@
 #fp-nav ul li a span, .fp-slidesNav ul li a span { background: #fff; }
-
+h2 { font-weight: 700;}
 /* ============
 ** Home
 ============ */
-#home h1 {
+#home {
+  h1 {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
-}
-#home p {
+  }
+  p {
     font-size: 18px;
+  }
 }
 /* ============
 ** About
 ============ */
-#about h2, #settings h2, #options h2, #open h2 {
-    font-weight: 700;
-}
-#about p {
+#about {
+  p {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 10px;
+  }
+}
+/* ============
+** Settings
+============ */
+#settings {
+  div.left {
+    float: left;
+  }
+  div.right {
+    float: left;
+    text-align: left;
+  }
+  table {
+    width: 100%;
+    margin-top: 50px;
+    tr {
+      border-bottom: 1px solid #fbfbfb;
+      th {
+        text-align: left;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+      td {
+        font-size: 20px;
+      }
+    }
+    tr.top {
+      border: 0px;
+    }
+  }
+}
+/* ============
+** Options
+============ */
+#options {
+  p {
+    font-size: 18px;
+  }
 }

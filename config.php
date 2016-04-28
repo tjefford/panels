@@ -1,5 +1,5 @@
 <?php
-// Panels Version 0.6
+// Panels Version 1.0
 // Tyler Jefford <http://tylerjefford.com>
 
 // Define your site path

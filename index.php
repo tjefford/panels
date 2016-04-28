@@ -1,4 +1,4 @@
-<?php include 'config.php'; 
+<?php include 'config.php';
     $site = new Site;
 ?>
 
@@ -15,13 +15,8 @@
     <meta name=description content="<?php echo $site->description; ?>" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel="stylesheet" type="text/css">
-<!--    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />-->
 
-<!--    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />-->
     <link rel="stylesheet" type="text/css" href="dist/styles/main.css" />
-
-    <!-- DEMO STYLES -->
-<!--    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />-->
 
 </head>
 <body>
@@ -31,7 +26,7 @@
     <nav>
         <ul>
             <li><a href="#home" alt="Home"><i class="fa fa-home"></i></a></li>
-            <li><a href="https://bitbucket.org/tjefford/panels-cms" alt="BitBucket" target="_blank"><i class="fa fa-bitbucket-square"></i></a></li>
+            <li><a href="https://bitbucket.org/tjefford/panels" alt="BitBucket" target="_blank"><i class="fa fa-bitbucket-square"></i></a></li>
         </ul>
     </nav>
 </header>
@@ -63,7 +58,6 @@
 <script src="dist/scripts/jquery.js"></script>
 <script src="dist/scripts/jquery-ui.js"></script>
 <script src="dist/scripts/main.js"></script>
-<!--<script type="text/javascript" src="dist/scripts/jquery.fullPage.min.js"></script>-->
 
 <script type="text/javascript">
     jQuery(document).ready(function() {

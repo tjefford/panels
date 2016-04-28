@@ -5,6 +5,7 @@ defined( 'SitePath' ) or die( 'No Direct Access Allowed' ); ?>
     <div class="wrap">
         <h2 class="center">Open Source Project</h2>
         <br />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto culpa dolore eligendi fugiat hic iste, laboriosam libero magnam nemo nesciunt praesentium provident quae quaerat, quis quo, saepe sapiente voluptatem.</p>
-    </div>
+        <p>Its free and encouraged to use this any way youd like. I'd appreciate it if you kept my name in the code and contributed to the <a href="https://bitbucket.org/tjefford/panels" target="_blank">Bitbucket Repository</a> by submitting a pull request.</p>
+        <br />
+        <p>Enjoy</p>
 </div>
